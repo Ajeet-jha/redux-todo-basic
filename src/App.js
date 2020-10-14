@@ -1,9 +1,14 @@
-import React from 'react';
+import React from "react";
+import Footer from "./components/Footer";
+import AddTodo from "./containers/AddTodo";
+import VisibleTodoList from "./containers/VisibleTodoList";
 
 function App() {
   return (
-    <div className="App">
-        learnig Redux
+    <div>
+      <AddTodo />
+      <VisibleTodoList />
+      <Footer />
     </div>
   );
 }
